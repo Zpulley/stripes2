@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
- 
 
 
 body {
@@ -14,17 +13,35 @@ body {
   
   overflow-x: hidden;
 
-  /*background-color: white;*/
-  background:linear-gradient(
-    to bottom,
-    #5d9634,
-    #5d9634 50%,
-    #538c2b 50%,
-    #538c2b ;
+  background-color: white;
  
+}
+
+body {
+  height: 100vh;
+ padding: 0%;
+  overflow: hidden;
+  background: repeating-linear-gradient(
+    to bottom,
+    #ff01e6 0px,
+    #ff01e6 82px,
+    #ffffff 82px,
+    #ffffff 164px
+  );
+  
 }
 
 img{
   max-width:120%;
 max-height:100%;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
